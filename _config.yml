@@ -9,7 +9,7 @@ theme: jekyll-theme-chirpy
 lang: en
 
 # Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
-timezone: Asia/Dhaka
+timezone: 
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
@@ -28,8 +28,8 @@ url: "https://mdnrkn.github.io"
 github:
   username: mdnrkn # change to your github username
 
-twitter:
-  username: mdnrknX # change to your twitter username
+# twitter:
+#   username: mdnrknX # change to your twitter username
 
 social:
   # Change to your full name.
@@ -39,9 +39,9 @@ social:
   links:
     # The first element serves as the copyright owner's link
     - https://github.com/mdnrkn # change to your github homepage
-    - https://twitter.com/mdnrknX # change to your twitter homepage
+    # - https://twitter.com/mdnrknX # change to your twitter homepage
     # Uncomment below to add more social links
-    - https://www.facebook.com/mdnrkn
+    # - https://www.facebook.com/mdnrkn
     - https://www.linkedin.com/in/mdnrkn
 
 # Site Verification Settings
@@ -96,7 +96,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: https://pbs.twimg.com/profile_images/1660841431718830081/u-P43ykD_400x400.jpg
+avatar: https://media.licdn.com/dms/image/D5603AQGky9OvN94dzA/profile-displayphoto-shrink_200_200/0/1692852894726?e=1722470400&v=beta&t=Ni3MBSSQlNRx7DM2z3NTiFFkK5AOHZB10bffzu4v2k4
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
