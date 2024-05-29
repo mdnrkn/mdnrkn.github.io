@@ -1,0 +1,40 @@
+---
+title: "Hello World"
+date: 2024-05-30
+categories: [Hello World]
+tags: [Hello World]
+---
+
+##### [Question Link](#){:target="\_blank"}
+
+### Editorial
+
+- Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+  Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.:
+
+  There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+
+### Solution
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+#define optimize() ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
+#define endl '\n'
+
+int main()
+{
+    optimize();
+
+    int test;
+    cin >> test;
+    while (test--)
+    {
+        // code
+        cout << "Hello World" << endl;
+    }
+    return 0;
+}
+```
