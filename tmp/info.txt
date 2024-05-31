@@ -1,0 +1,10 @@
+# To start localhost :
+
+=> bundle
+=> bundle exec jekyll s
+
+----------------------------------------------------------------
+
+# GitHub repo - https://github.com/cotes2020/jekyll-theme-chirpy
+
+# Live demo - https://chirpy.cotes.page/

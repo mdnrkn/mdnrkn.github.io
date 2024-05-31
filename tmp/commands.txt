@@ -1,4 +1,0 @@
-To start localhost :
-
-=> bundle
-=> bundle exec jekyll s
