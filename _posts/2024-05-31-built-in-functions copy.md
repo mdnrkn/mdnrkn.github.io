@@ -1,8 +1,8 @@
 ---
-title: "test"
+title: "math"
 date: 2024-11-01
-categories: [Competitive Programming Resources]
-tags: [test]
+categories: [Math]
+tags: [math]
 ---
 
 In the competitive programming community, C++ is extremely popular. Most competitive programmers prefer using C++ over Java or Python due to its faster execution speed and widespread usage, among other reasons. Today, we'll discuss some of the built-in functions available in C++.
@@ -10,7 +10,7 @@ In the competitive programming community, C++ is extremely popular. Most competi
 Firstly, we replace `#include <iostream>` with `#include <bits/stdc++.h>`. This single header file includes all the necessary libraries, so we no longer need to include them individually.\
 Now let's explore some commonly used built-in functions often used in competitive programming.
 
-### min( )
+### min( 
 
 To find the minimum value, we can use `min()` function.
 
