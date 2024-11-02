@@ -5,12 +5,12 @@ categories: [Competitive Programming Resources, Math]
 tags: [math]
 ---
 
-### Note:
+### **Note:**
 
-[*] If the number of iteration is based on division, 
+> If the number of iteration is based on division, 
     then the time complexity will be in logarithmic.
 
-[*] The numbers those has exactly two factors, 
+> The numbers those has exactly two factors, 
     1 and the number itself are called prime number. 
 
 ---
@@ -35,6 +35,7 @@ for (int i = 0; i < v.size(); i++) cout << v[i] << " ";
 ---
 
 ### Reverse a Number
+TC = O(log10(n))
 
 if n = 1234\
 output : 4321
@@ -52,9 +53,10 @@ cout << revNum;
 ---
 
 ### Check Palindrome
+TC = O(log10(n))
 
-if n = 121, then revNum = 121\
-but if n = 123, then revNum != 121
+if n = 121, then revNum = 121, and this is a palindrome.\
+but if n = 123, then revNum = 321, and this is not a palindrome.
 
 ```cpp
 int tmp = n;
@@ -72,6 +74,7 @@ else cout << "Not a Palindrome";
 ---
 
 ### Armstrong Number
+TC = O(log10(n))
 
 if n = 371, then 371 = 3^3 + 7^3 + 1^3\
 but if n = 35, then 35 != 3^3 + 5^3
