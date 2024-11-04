@@ -10,7 +10,7 @@ tags: [math]
 > If the number of iteration is based on division, 
     then the time complexity will be in logarithmic.
 
-> The numbers those has exactly two factors, 
+> The numbers those has exactly two factors / divisors, 
     1 and the number itself are called prime number. 
 
 ---
