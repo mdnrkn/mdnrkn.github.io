@@ -2,7 +2,7 @@
 title: Sieve of Eratosthenes
 date: 2024-11-11
 categories: [Competitive Programming Resources, Math]
-tags: [math, algorithm]
+tags: [math, dsa]
 ---
 
 Given a number 'n', we need to print all the prime numbers up to 'n'.
