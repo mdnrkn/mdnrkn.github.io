@@ -98,11 +98,11 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: https://scontent.fdac134-1.fna.fbcdn.net/v/t39.30808-6/412794089_912222550259681_3597744194234217499_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeEyYN2tecVV5AQIhXFtihbG0dBxVtVsgvHR0HFW1WyC8RG3YMU14yGc77jrdQpEe6S8Lvj3-pQtWsxBWYWxZXsD&_nc_ohc=Qa9LhKV_870Q7kNvgFBxSbr&_nc_zt=23&_nc_ht=scontent.fdac134-1.fna&_nc_gid=ARxpgY1IhP0OTYHmClYfO1b&oh=00_AYBGgWoBtN1AV6Ali-m1Ycj9aZScQ4O4KLO9FJJtnlbPkQ&oe=672B11ED
+avatar: https://avatars.githubusercontent.com/u/78140810
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
-social_preview_image: # string, local or CORS resources
+social_preview_image: https://avatars.githubusercontent.com/u/78140810  # string, local or CORS resources
 
 # boolean type, the global switch for TOC in posts.
 toc: true
