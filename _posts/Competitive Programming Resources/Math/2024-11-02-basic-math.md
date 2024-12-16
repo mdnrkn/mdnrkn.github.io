@@ -5,7 +5,7 @@ categories: [Competitive Programming Resources, Math]
 tags: [math]
 ---
 
-### **Note:**
+### **📝 Note**
 
 > If the number of iteration is based on division, 
     then the time complexity will be in logarithmic.
