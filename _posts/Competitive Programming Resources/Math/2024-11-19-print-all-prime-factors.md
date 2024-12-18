@@ -2,7 +2,7 @@
 title: Print All Prime Factors
 date: 2024-11-19
 categories: [Competitive Programming Resources, Math]
-tags: [math]
+tags: [math, dsa]
 ---
 
 Given a number 'n', we need to find all of its prime factors.\
