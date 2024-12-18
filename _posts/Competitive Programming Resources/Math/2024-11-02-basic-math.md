@@ -2,7 +2,7 @@
 title: Basic Math
 date: 2024-11-02
 categories: [Competitive Programming Resources, Math]
-tags: [math]
+tags: [math, dsa]
 ---
 
 ### **📝 Note**
