@@ -5,13 +5,13 @@ categories: [Competitive Programming Resources, Array]
 tags: [array, dsa]
 ---
 
-Given an array arr[ ] = { 1, 2, 4, 7, 7, 5 }, we have to find the second largest element.
+Given an array `arr[] = { 1, 2, 4, 7, 7, 5 }`, we have to find the second largest element.
 
 #### Brute Force Approach:
 
-We can sort the array. After sorting, the largest element will be at the last position, arr[n - 1].\
-However, we can't directly assume that arr[n - 2] is the second largest element because duplicate largest elements might exist.\
-For example, in arr[ ] = { 1, 2, 4, 5, 7, 7 }, we must traverse the array in reverse to find the second largest element that is different from the largest.
+We can sort the array. After sorting, the largest element will be at the last position, `arr[n - 1]`.\
+However, we can't directly assume that `arr[n - 2]` is the second largest element because duplicate largest elements might exist.\
+For example, in `arr[] = { 1, 2, 4, 5, 7, 7 }`, we must traverse the array in reverse to find the second largest element that is different from the largest.
 
 ```cpp
 int n = 6;
@@ -36,7 +36,7 @@ Time Complexity:
 
 Sorting the array takes O(N log N).\
 Traversing the array in reverse takes O(N) in the worst case.\
-(When all elements are the same, such as arr[ ] = { 7, 7, 7, 7, 7, 7 }).
+(When all elements are the same, such as `arr[] = { 7, 7, 7, 7, 7, 7 }`).
 
 Total Worst-Case Time Complexity: O(N log N + N)\
 Here:\
@@ -83,7 +83,7 @@ Total time complexity: O(2N), which simplifies to O(N).
 #### Optimal Approach:
 
 To optimize further, we can find both the largest and second largest elements in a single pass.\
-Assume largest = arr[0] and second_largest = INT_MIN.\
+Assume `largest = arr[0]` and `second_largest = INT_MIN`.\
 Traverse the array:\
 If the current element is greater than largest, update second_largest to largest and then update largest.\
 If the current element is smaller than largest but greater than second_largest, update second_largest.
