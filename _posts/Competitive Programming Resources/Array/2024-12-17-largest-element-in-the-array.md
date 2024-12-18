@@ -2,7 +2,7 @@
 title: Largest Element in the Array
 date: 2024-12-17
 categories: [Competitive Programming Resources, Array]
-tags: [array]
+tags: [array, dsa]
 ---
 
 #### **📝 Note**
