@@ -18,7 +18,7 @@ tags: [array, dsa]
 
 ---
 
-Suppose, we have the array `arr[ ] = { 3, 2, 1, 5, 2 }`. We have to find the largest element in the array.
+Suppose, we have the array `arr[] = { 3, 2, 1, 5, 2 }`. We have to find the largest element in the array.
 
 #### Brute Force Approach:
 
