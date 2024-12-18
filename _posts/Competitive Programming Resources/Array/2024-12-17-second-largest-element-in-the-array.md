@@ -2,7 +2,7 @@
 title: Second Largest Element in the Array
 date: 2024-12-17
 categories: [Competitive Programming Resources, Array]
-tags: [array]
+tags: [array, dsa]
 ---
 
 Given an array arr[ ] = { 1, 2, 4, 7, 7, 5 }, we have to find the second largest element.
