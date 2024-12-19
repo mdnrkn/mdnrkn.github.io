@@ -5,10 +5,10 @@ categories: [Competitive Programming Resources, Array]
 tags: [array, dsa]
 ---
 
-Given an array `arr[] = { 1,2,3,4,5 }`, we have to left rotate the array by one place.\
+Given an array `arr[] = { 1, 2, 3, 4, 5 }`, we have to left rotate the array by one place.\
 To rotate the array to the left by one position, we can directly modify the given array without using extra space.\
-For example, if the input array is: `arr[] = {1, 2, 3, 4, 5}`,\
-After rotating left by one position, it becomes: `{2, 3, 4, 5, 1}`.
+For example, if the input array is: `arr[] = { 1, 2, 3, 4, 5 }`,\
+After rotating left by one position, it becomes: `{ 2, 3, 4, 5, 1 }`.
 
 Here, the first element of the array moves to the last position, while all other elements shift one position to the left.\
 Approach:
