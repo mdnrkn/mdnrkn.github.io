@@ -140,10 +140,10 @@ Steps:
 For example:
 Given `arr[] = { 1, 2, 3, 4, 5, 6, 7 }` and k = 3:
 
-- Reverse the last k elements `{ 5, 6, 7 }` → `{ 7, 6, 5 }`.
-Result: `{ 1, 2, 3, 4, 7, 6, 5 }`.
-- Reverse the remaining (n − k) elements `{ 1, 2, 3, 4 }` → `{ 4, 3, 2, 1 }`.
-Result: `{ 4, 3, 2, 1, 7, 6, 5 }`.
+- Reverse the last k elements `{ 5, 6, 7 }` → `{ 7, 6, 5 }`.\
+  Result: `{ 1, 2, 3, 4, 7, 6, 5 }`.
+- Reverse the remaining (n − k) elements `{ 1, 2, 3, 4 }` → `{ 4, 3, 2, 1 }`.\
+  Result: `{ 4, 3, 2, 1, 7, 6, 5 }`.
 - Reverse the entire array → `{ 5, 6, 7, 1, 2, 3, 4 }`.
 
 ```cpp
