@@ -3,7 +3,6 @@ title: Quick Links - Array
 date: 2024-12-19
 categories: [Competitive Programming Resources, Array]
 tags: [array, dsa]
-pinned: true
 ---
 
 Below is a collection of array-related problems along with their solutions and corresponding notes, all taken from Striver's DSA playlist.
@@ -18,3 +17,4 @@ Below is a collection of array-related problems along with their solutions and c
 | 6. [Left Rotate an Array by K places](https://www.naukri.com/code360/problems/rotate-array_1230543)                                          | [📝Notes](https://mdnrkn.github.io/posts/left-rotate-an-array-by-k-places/)    |
 | 7. [Right Rotate an Array by One place](#)                                                                                                   | [📝Notes](https://mdnrkn.github.io/posts/right-rotate-an-array-by-one-place/)  |
 | 8. [Right Rotate an Array by K places](#)                                                                                                    | [📝Notes](https://mdnrkn.github.io/posts/right-rotate-an-array-by-k-places/)   |
+| 9. [Move Zeros to End](https://www.naukri.com/code360/problems/ninja-and-the-zero-s_6581958)                                                 | [📝Notes](https://mdnrkn.github.io/posts/move-zeros-to-end/)                   |
