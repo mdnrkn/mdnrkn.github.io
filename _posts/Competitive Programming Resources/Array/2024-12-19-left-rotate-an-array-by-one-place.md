@@ -24,7 +24,6 @@ for (int i = 1; i < n; i++)
     arr[i - 1] = arr[i]; // Shift elements to the left
 }
 arr[n - 1] = tmp; // Place the first element at the end
-
 ```
 
 Time Complexity:
