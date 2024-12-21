@@ -20,7 +20,8 @@ For example, given:
 `arr1[] = { 1, 1, 2, 3, 4, 5 }`\
 `arr2[] = { 2, 3, 4, 4, 5, 6 }`
 
-The intersection of these arrays is: `intersectionArray[] = { 2, 3, 4, 5 }`
+The intersection of these arrays is:\
+`intersectionArray[] = { 2, 3, 4, 5 }`
 
 ### Brute Force Approach:
 
