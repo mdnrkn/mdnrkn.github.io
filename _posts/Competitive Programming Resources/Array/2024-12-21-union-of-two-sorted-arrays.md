@@ -23,7 +23,8 @@ Both arrays are sorted but may contain duplicate elements. We need to find the u
 - The union array contains only unique elements.
 - The elements in the union array are sorted in ascending order.
 
-The resulting union array will be: `unionArray[] = { 1, 2, 3, 4, 5, 6 }`
+The resulting union array will be:\
+`unionArray[] = { 1, 2, 3, 4, 5, 6 }`
 
 ### Brute Force Approach:
 
