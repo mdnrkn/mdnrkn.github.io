@@ -102,7 +102,7 @@ return (xor1 ^ xor2);
 
 - XOR-ing all numbers from 1 to n gives the cumulative XOR.
 - XOR-ing all elements in the array gives the cumulative XOR of the present elements.
-- The missing number is found by XORing these two results `(xor1 ^ xor2)`.
+- The missing number is found by XOR-ing these two results `(xor1 ^ xor2)`.
 
 **Time Complexity:** O(n)\
 **Space Complexity:** O(1)
