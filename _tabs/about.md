@@ -5,33 +5,57 @@ icon: fas fa-address-card
 order: 4
 ---
 
-<sub>_( Last updated on 11 Nov, 2024 )_</sub>
+<sub>_( Last updated on 29 Dec, 2024 )_</sub>
 
-## Md. Nishat Raihan Khan Nijhum
+## Profile
 
-Hello! I'm Md. Nishat Raihan Khan Nijhum, living in Dhaka, Bangladesh. I'm currently an undergraduate student at American International University-Bangladesh ( AIUB ) and have recently started exploring competitive programming and problem-solving.
-
-<!-- #### My Achievements :
-- Newbie @ Codeforces ( max rating 897 )
-- 1* @ Codechef ( max rating 1240 ) -->
-
-<!-- #### My Stacks :
+```json
 {
-  "language": ["Javascript", "Python", "C++/C", "Java", "Visual Basic", "C#"],
-  "framework/library": {
-    "runtime_environment": ["Nodejs"],
-    "backend": [ "Node/Express.js", "Flask"],
-    "frontend": ["Reactjs", "JQuery", "HTML"],
-    "ui/ux": ["CSS", "Bootstrap", "Tailwindcss", "Material-UI"]
-  },
-  "database":  ["MongoDB", "PostgreSQL", "MySQL", "SQLite", "Firebase Realtime/Firestore"],
-  "misc": ["Firebase", "Heroku"],
-  "server/deployment": ["Digitalocean", "Heroku", "Firebase"]
-  "tools": ["Git", "VS Code", "Sublime-text", "Android Studio", "Codeblocks", "Jupyter notebook"],
-  "container": ["Docker"]
-} -->
+  "name": "Md. Nishat Raihan Khan Nijhum",
+  "location": "Dhaka, Bangladesh",
+  "education": "CS Undergraduate @ AIUB, Expected Graduation: September 2027",
+  "interests": ["Competitive Programming", "Problem Solving", "DSA", "Building Projects"],
+  "tools": ["Git", "VS Code", "Nvim"],
+  "skills": ["Prompt Engineering", "Programming"],
+  "hobbies": ["Reading about Technology Trends", "Gaming", "Photography"],
+  "non_tech_interests": ["Space Exploration", "History", "and many more"],
+  "message": "Hello! I'm Md. Nishat Raihan Khan Nijhum, currently living in Dhaka, Bangladesh.
+              I'm passionate about Problem Solving and Building Projects.
+              Let’s build something amazing together!"
+}
 
-#### Contact Me
+```
 
-Feel free to reach out to me via email at [mdnishatraihankhan@gmail.com](mailto:mdnishatraihankhan@gmail.com).\
-Let’s also connect on [LinkedIn 🙋‍♂️](https://www.linkedin.com/in/mdnrkn/).
+## Tech Stack & Expertise
+
+```json
+{
+  "languages": ["C/C++", "Java (OOP)"],
+  "specializations": ["Problem Solving", "DSA"],
+  "skills": ["Prompt Engineering"],
+  "tools": ["Git", "VS Code", "Nvim"],
+  "expertise": {
+    "frameworks": ["None yet, exploring options."],
+    "databases": ["SQL basics", "Exploring Oracle."],
+    "other_technologies": ["Linux basics", "Git workflow"]
+  }
+}
+
+```
+
+### Life Updates Timeline
+
+---
+
+#### 2024
+
+- **🗓️ December**
+  - Sharpening DSA knowledge and preparing for job opportunities.
+  - Initiated a project to build a Line Following Robot.
+    - Experimenting with micro-controllers like ESP32 and STM32.
+
+---
+
+#### 2023, 2022, 2021, and Beyond...
+
+- Certain parts of my life remain untracked, awaiting reflection and documentation. 😊
