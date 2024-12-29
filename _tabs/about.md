@@ -34,9 +34,9 @@ order: 4
   "skills": ["Prompt Engineering"],
   "tools": ["Git", "VS Code", "Nvim"],
   "expertise": {
-    "frameworks": ["None yet, exploring options."],
-    "databases": ["SQL basics", "Exploring Oracle."],
-    "other_technologies": ["Linux basics", "Git workflow"]
+    "frameworks": ["None yet, Exploring options."],
+    "databases": ["SQL Basics", "Exploring Oracle."],
+    "other_technologies": ["Linux Basics", "Git Workflow"]
   }
 }
 ```
