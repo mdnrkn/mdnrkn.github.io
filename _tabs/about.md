@@ -23,7 +23,6 @@ order: 4
               I'm passionate about Problem Solving and Building Projects.
               Let’s build something amazing together!"
 }
-
 ```
 
 ## Tech Stack & Expertise
@@ -40,7 +39,6 @@ order: 4
     "other_technologies": ["Linux basics", "Git workflow"]
   }
 }
-
 ```
 
 ### Life Updates Timeline
