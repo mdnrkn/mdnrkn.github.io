@@ -20,7 +20,7 @@ order: 4
    </div>
 
    <!-- Profile Image Container on the Left -->
-   <div style="position: relative; margin-right: 15px; margin-top: 18px;">
+   <div style="position: relative; margin-right: 15px; margin-top: 16px;">
      <img src="https://media.licdn.com/dms/image/v2/D5603AQGky9OvN94dzA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1692852894726?e=1741219200&v=beta&t=eNXfNZPW0MYYdVXVT6PFuCNS_Tl4_-UL8qDxwEjyFFc" alt="LinkedIn Profile Picture" style="border: 2px solid #E5E5E5; border-radius: 50%; width: 60px; height: 60px; object-fit: cover;">
      <!-- Active Status Dot -->
      <div style="position: absolute; bottom: 12px; right: 3px; width: 12px; height: 12px; background-color: #2ecc71; border-radius: 50%; border: 2px solid white;"></div>
