@@ -28,8 +28,8 @@ order: 4
    
    <!-- Text Content on the Right -->
    <div style="flex: 1; margin-top: 24px;">
-     <h3 style="color: #000000; margin: 0 0 4px 0; font-size: 16px; font-weight: 600; line-height: 1.2;">Md. Nishat Raihan Khan Nijhum</h3>
-     <p style="font-size: 14px; color: rgba(0, 0, 0, 0.9); margin: 0 0 6px 0; font-weight: 400; line-height: 1.4;">Aspiring Backend Engineer | Passionate Problem Solver | CS Undergraduate @ AIUB</p>
+     <h3 style="color: #2A2A2A; margin: 0 0 4px 0; font-size: 20px; font-weight: bold; line-height: 1.2;">Md. Nishat Raihan Khan Nijhum</h3>
+     <p style="font-size: 14px; color: #2A2A2A; margin: 0 0 6px 0; font-weight: 400; line-height: 1.4;">Aspiring Backend Engineer | Passionate Problem Solver | CS Undergraduate @ AIUB</p>
      <a href="https://www.linkedin.com/in/mdnrkn/" target="_blank" style="text-decoration: none; color: #F6F8FA; background-color: #0a66c2; padding: 4px 8px; border-radius: 16px; font-size: 10px; font-weight: 600; display: inline-block; transition: background-color 0.3s;"> Connect on LinkedIn </a>
    </div>
  </div>
