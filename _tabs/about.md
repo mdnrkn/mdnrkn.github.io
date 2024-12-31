@@ -14,11 +14,10 @@ order: 4
   "name": "Md. Nishat Raihan Khan Nijhum",
   "location": "Dhaka, Bangladesh",
   "education": "CS Undergraduate @ AIUB, Expected Graduation: September 2027",
-  "interests": ["Competitive Programming", "Problem Solving", "DSA", "Building Projects"],
-  "tools": ["Git", "VS Code", "Nvim"],
   "skills": ["Prompt Engineering", "Programming"],
-  "hobbies": ["Reading about Technology Trends", "Gaming", "Photography"],
+  "interests": ["Competitive Programming", "Problem Solving", "DSA", "Building Projects"],
   "non_tech_interests": ["Space Exploration", "History", "and many more"],
+  "hobbies": ["Reading about Technology Trends", "Gaming", "Photography"],
   "message": "Hello! I'm Md. Nishat Raihan Khan Nijhum, currently living in Dhaka, Bangladesh.
               I'm passionate about Problem Solving and Building Projects.
               Let’s build something amazing together!"
@@ -30,9 +29,9 @@ order: 4
 ```json
 {
   "languages": ["C/C++", "Java (OOP)"],
-  "specializations": ["Problem Solving", "DSA"],
   "skills": ["Prompt Engineering"],
   "tools": ["Git", "VS Code", "Nvim"],
+  "specializations": ["Problem Solving", "DSA"],
   "expertise": {
     "frameworks": ["None yet, Exploring options."],
     "databases": ["SQL Basics", "Exploring Oracle."],
