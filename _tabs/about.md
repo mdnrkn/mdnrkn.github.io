@@ -15,7 +15,7 @@ order: 4
   "location": "Dhaka, Bangladesh",
   "education": "CS Undergraduate @ AIUB, Expected Graduation: September 2027",
   "skills": ["Prompt Engineering", "Programming"],
-  "interests": ["Competitive Programming", "Problem Solving", "DSA", "Building Projects"],
+  "interests": ["Competitive Programming", "Problem Solving", "Building Projects"],
   "non_tech_interests": ["Space Exploration", "History", "and many more"],
   "hobbies": ["Reading about Technology Trends", "Gaming", "Photography"],
   "message": "Hello! I'm Md. Nishat Raihan Khan Nijhum, currently living in Dhaka, Bangladesh.
@@ -33,6 +33,8 @@ order: 4
   "tools": ["Git", "VS Code", "Nvim"],
   "specializations": ["Problem Solving", "DSA"],
   "expertise": {
+    "frontend": ["HTML", "CSS", "Tailwind"],
+    "backend": ["None yet, Exploring options."],
     "frameworks": ["None yet, Exploring options."],
     "databases": ["SQL Basics", "Exploring Oracle."],
     "other_technologies": ["Linux Basics", "Git Workflow"]
