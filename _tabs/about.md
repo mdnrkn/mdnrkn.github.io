@@ -73,9 +73,20 @@ order: 4
 
 ### Life Updates Timeline
 
+🚩Jump into - [2025](#2025), [2024](#2024), [2023, 2022, 2021, and Beyond...](#2023-2021-and-beyond)
+
 ---
 
-#### 2024
+#### <a name="2025"></a> 🔰2025
+
+- **🗓️ January**
+  - Diving into Development.
+    - Reviewing HTML, CSS, and Tailwind concepts.
+    - Starting to learn advanced development topics.
+
+---
+
+#### <a name="2024"></a> 🔰2024
 
 - **🗓️ December**
   - Sharpening DSA knowledge and preparing for job opportunities.
@@ -84,6 +95,6 @@ order: 4
 
 ---
 
-#### 2023, 2022, 2021, and Beyond...
+#### <a name="2023-2021-and-beyond"></a> 🔰2023, 2022, 2021, and Beyond...
 
 - Certain parts of my life remain untracked, awaiting reflection and documentation. 😊
