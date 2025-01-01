@@ -73,7 +73,7 @@ order: 4
 
 ### Life Updates Timeline
 
-🚩Jump into - [2025](#2025), [2024](#2024), [2023-and-Beyond](#2023-and-beyond)
+🚩Jump into - [2025](#2025), [2024](#2024), [2023 and Beyond](#2023-and-beyond)
 
 ---
 
