@@ -8,7 +8,7 @@ tags: [array, dsa]
 Given an array may contains positive and negative both elements and an integer K, we need to find the Longest Subarray with sum K.
 
 The code below is the optimal solution for this problem. Detailed explanations are available in the linked blog, where we previously focused on finding the longest subarray with a sum of K for arrays containing only positive numbers.\
-[Read more here...](https://mdnrkn.github.io/posts/longest-subarray-with-sum-k-[positives])
+[Read more here...](https://mdnrkn.github.io/posts/longest-subarray-with-sum-k-positives/)
 
 ```cpp
 int longestSubarrayWithSumK(vector<int> arr, long long k) 
