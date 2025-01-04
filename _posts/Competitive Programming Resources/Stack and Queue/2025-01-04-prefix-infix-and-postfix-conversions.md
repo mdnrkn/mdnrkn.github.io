@@ -78,8 +78,6 @@ Similarly, Convert the Infix expression `3 + 4 * (2 ^ 5 - 6)`
 | )         | `+ *`         | `3425^6-`      | Pop operators from the stack to the answer until `(` is found.       |
 |           |               | `3425^6-*+`    | Pop remaining operators `*` and `+` from the stack to the answer.    |
 
-- **Note**: The code above works fine for characters and single-digit numbers only. However, for multi-digit numbers, we need to make some changes.
-
 ```cpp
 int priority(char ch) 
 {
@@ -142,5 +140,7 @@ string infixToPostfix(string s)
     return ans;
 }
 ```
+
+- **Note**: The code above works fine for characters and single-digit numbers only. However, for multi-digit numbers, we need to make some tweaks to the code.
 
 ### 🚩 Other conversions will be added soon :) 
