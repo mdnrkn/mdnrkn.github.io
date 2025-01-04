@@ -61,24 +61,24 @@ Example : Convert the Infix expression `a + b * (c ^ d - e)`
 
 - **Note**: When a closing bracket `)` is found, pop all operators from the stack until an opening bracket `(` is found.
 
-Similarly, Convert the Infix expression `12 + 34 * (5 ^ 2 - 1)`
+Similarly, Convert the Infix expression `3 + 4 * (2 ^ 5 - 6)`
 
-| Index  | Stack       | Answer           | Note                                                                |
-|--------|-------------|------------------|---------------------------------------------------------------------|
-| 12     |             | `12`             | Add operand `12` directly to the answer.                            |
-| +      | `+`         | `12`             | Push operator `+` onto the stack.                                   |
-| 34     | `+`         | `1234`           | Add operand `34` directly to the answer.                            |
-| *      | `+ *`       | `1234`           | Push operator `*` onto the stack (higher priority than `+`).        |
-| (      | `+ * (`     | `1234`           | Push opening parenthesis `(` onto the stack.                        |
-| 5      | `+ * (`     | `12345`          | Add operand `5` directly to the answer.                             |
-| ^      | `+ * ( ^`   | `12345`          | Push operator `^` onto the stack (highest priority).                |
-| 2      | `+ * ( ^`   | `123452`         | Add operand `2` directly to the answer.                             |
-| -      | `+ * ( -`   | `123452^`        | Pop `^` from the stack to the answer as `-` has lower priority.     |
-| 1      | `+ * ( -`   | `123452^1`       | Add operand `1` directly to the answer.                             |
-| )      | `+ *`       | `123452^1-`      | Pop operators from the stack to the answer until `(` is found.      |
-|        |             | `123452^1-*+`    | Pop remaining operators `*` and `+` from the stack to the answer.   |
+| Index     | Stack         | Answer         | Note                                                             |
+|-----------|---------------|----------------|----------------------------------------------------------------------|
+| 3         |               | `3`            | Add operand `3` (digit) directly to the answer.                      |
+| +         | `+`           | `3`            | Push operator `+` onto the stack.                                    |
+| 4         | `+`           | `34`           | Add operand `4` (digit) directly to the answer.                      |
+| *         | `+ *`         | `34`           | Push operator `*` onto the stack (higher priority than `+`).         |
+| (         | `+ * (`       | `34`           | Push opening parenthesis `(` onto the stack.                         |
+| 2         | `+ * (`       | `342`          | Add operand `2` (digit) directly to the answer.                      |
+| ^         | `+ * ( ^`     | `342`          | Push operator `^` onto the stack (highest priority).                 |
+| 5         | `+ * ( ^`     | `3425`         | Add operand `5` (digit) directly to the answer.                      |
+| -         | `+ * ( -`     | `3425^`        | Pop `^` from the stack to the answer as `-` has lower priority.      |
+| 6         | `+ * ( -`     | `3425^6`       | Add operand `6` (digit) directly to the answer.                      |
+| )         | `+ *`         | `3425^6-`      | Pop operators from the stack to the answer until `(` is found.       |
+|           |               | `3425^6-*+`    | Pop remaining operators `*` and `+` from the stack to the answer.    |
 
-- **Note**: Treat multi-digit numbers as one operand (e.g., `12`, `34`, etc.) and add them directly to the answer.
+- **Note**: The code above works fine for characters and single-digit numbers only. However, for multi-digit numbers, we need to make some changes.
 
 ```cpp
 int priority(char ch) 
