@@ -61,6 +61,25 @@ Example : Convert the Infix expression `a + b * (c ^ d - e)`
 
 - **Note**: When a closing bracket `)` is found, pop all operators from the stack until an opening bracket `(` is found.
 
+Similarly, Convert the Infix expression `12 + 34 * (5 ^ 2 - 1)`
+
+| Index  | Stack       | Answer           | Note                                                                |
+|--------|-------------|------------------|---------------------------------------------------------------------|
+| 12     |             | `12`             | Add operand `12` directly to the answer.                            |
+| +      | `+`         | `12`             | Push operator `+` onto the stack.                                   |
+| 34     | `+`         | `1234`           | Add operand `34` directly to the answer.                            |
+| *      | `+ *`       | `1234`           | Push operator `*` onto the stack (higher priority than `+`).        |
+| (      | `+ * (`     | `1234`           | Push opening parenthesis `(` onto the stack.                        |
+| 5      | `+ * (`     | `12345`          | Add operand `5` directly to the answer.                             |
+| ^      | `+ * ( ^`   | `12345`          | Push operator `^` onto the stack (highest priority).                |
+| 2      | `+ * ( ^`   | `123452`         | Add operand `2` directly to the answer.                             |
+| -      | `+ * ( -`   | `123452^`        | Pop `^` from the stack to the answer as `-` has lower priority.     |
+| 1      | `+ * ( -`   | `123452^1`       | Add operand `1` directly to the answer.                             |
+| )      | `+ *`       | `123452^1-`      | Pop operators from the stack to the answer until `(` is found.      |
+|        |             | `123452^1-*+`    | Pop remaining operators `*` and `+` from the stack to the answer.   |
+
+- **Note**: Treat multi-digit numbers as one operand (e.g., `12`, `34`, etc.) and add them directly to the answer.
+
 ```cpp
 int priority(char ch) 
 {
