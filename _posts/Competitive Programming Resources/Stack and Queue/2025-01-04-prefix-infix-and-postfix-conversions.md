@@ -141,6 +141,8 @@ string infixToPostfix(string s)
 }
 ```
 
-- **Note**: The code above works fine for characters and single-digit numbers only. However, for multi-digit numbers, we need to make some tweaks to the code.
+- **Note**: The code above works fine for characters and single-digit numbers (0 - 9) only. However, for multi-digit numbers (such as 10, 23, 54 ...), we need to make some tweaks to the code.
+
+
 
 ### 🚩 Other conversions will be added soon :) 
