@@ -71,7 +71,7 @@ order: 4
 }
 ```
 
-### Life Updates Timeline
+<!-- ### Life Updates Timeline
 
 🚩Jump into - [2025](#2025), [2024](#2024), [2023 and Beyond](#2023-and-beyond)
 
@@ -97,4 +97,4 @@ order: 4
 
 #### 🔰2023 and Beyond...
 
-- Certain parts of my life remain untracked, awaiting reflection and documentation. 😊
+- Certain parts of my life remain untracked, awaiting reflection and documentation. 😊 -->
