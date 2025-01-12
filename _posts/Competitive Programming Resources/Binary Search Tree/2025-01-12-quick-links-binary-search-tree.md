@@ -10,3 +10,4 @@ Below is a collection of binary search tree related problems along with their so
 | Problem Name with Links               | Notes Link                                                              |
 |---------------------------------------|-------------------------------------------------------------------------|
 | 01. [Introduction to Binary Tree](#)  | [📝Notes](https://mdnrkn.github.io/posts/introduction-to-binary-tree/)  |
+| 02. [Binary Tree Representation](#)   | [📝Notes](https://mdnrkn.github.io/posts/binary-tree-representation/)   |
