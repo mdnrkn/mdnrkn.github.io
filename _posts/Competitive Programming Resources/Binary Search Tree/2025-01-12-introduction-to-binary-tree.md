@@ -171,6 +171,8 @@ A degenerate tree (or pathological tree) is a binary tree in which every node ha
           o
 ```
 
+---
+
 #### Below is a visual and structural representation of a binary tree.
 
 ```text
