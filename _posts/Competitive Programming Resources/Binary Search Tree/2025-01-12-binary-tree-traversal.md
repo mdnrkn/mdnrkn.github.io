@@ -54,7 +54,7 @@ Assume the following is our binary tree:
 - **Pre**-order Traversal = Root at **first** (Root > Left > Right)\
 - **Post**-order Traversal = Root at the **last** (Left > Right > Root)
 
-#### BFS Traversal (Level-wise):
+#### BFS Traversal (Level-wise)
 
 ```text
 L1           1
