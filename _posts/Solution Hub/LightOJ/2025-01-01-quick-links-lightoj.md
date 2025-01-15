@@ -1,7 +1,7 @@
 ---
 title: Quick Links - LightOJ
 date: 2025-01-01
-categories: [Solution Hub, LightOJ, Warm-up]
+categories: [Solution Hub, LightOJ]
 tags: [lightoj, solution hub]
 ---
 
