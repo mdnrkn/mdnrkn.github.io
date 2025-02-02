@@ -17,8 +17,7 @@ A binary tree is a type of tree in which each node has at most two children, kno
 **Parent:** A node that has children.\
 **Child:** Nodes that are the descendants of a parent node.\
 **Leaf:** A node with no children.\
-**Height:** The length of the longest path from the root to a leaf.
-subtree.\
+**Height:** The length of the longest path from the root to a leaf.\
 **Subtree:** A portion of a tree that itself is a tree.
 
 **Structure of a Binary Tree:**\
