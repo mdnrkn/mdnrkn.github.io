@@ -80,8 +80,8 @@ void postorder(node)
 
 #### Technique to Memorize DFS Orders
 
-- **In**order Traversal = Root in the **middle** (Left > Root > Right)\
-- **Pre**-order Traversal = Root at **first** (Root > Left > Right)\
+- **In**order Traversal = Root in the **middle** (Left > Root > Right)
+- **Pre**-order Traversal = Root at **first** (Root > Left > Right)
 - **Post**-order Traversal = Root at the **last** (Left > Right > Root)
 
 #### BFS Traversal (Level-wise)
