@@ -14,11 +14,10 @@ vector<vector<int>> preInPostTraversal(TreeNode* root)
     st.push({root, 1});
 
     vector<int> pre, in, post;
-    // Return empty vectors if the root is NULL
-    if (root == NULL) return {`{}`, `{}`, `{}`};  
-    // if (root == NULL) return {{}, {}, {}};       
-    // The above line is written in this way to prevent Liquid syntax errors.
-
+    {% raw %}
+    // Return empty vectors if the root is NULL 
+    if (root == NULL) return {{}, {}, {}};  
+    {% endraw %}
     while (!st.empty())
     {
         auto it = st.top();
