@@ -15,7 +15,9 @@ vector<vector<int>> preInPostTraversal(TreeNode* root)
 
     vector<int> pre, in, post;
     // Return empty vectors if the root is NULL
-    if (root == NULL) return {{}, {}, {}};  
+    if (root == NULL) return {`{}`, `{}`, `{}`};  
+    // if (root == NULL) return {{}, {}, {}};       
+    // The above line is written in this way to prevent Liquid syntax errors.
 
     while (!st.empty())
     {
