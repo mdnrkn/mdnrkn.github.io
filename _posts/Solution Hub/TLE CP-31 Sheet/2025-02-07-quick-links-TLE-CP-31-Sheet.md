@@ -19,6 +19,7 @@ Below is a collection of codeforces problems along with their solutions and corr
 |--------------------------------------------------------------------|------------------------------------------------------------------|
 | [Halloumi Boxes](https://codeforces.com/problemset/problem/1903/A) | [💡Solution](https://mdnrkn.github.io/posts/800-Halloumi-Boxes/) |
 | [Line Trip](https://codeforces.com/problemset/problem/1901/A)      | [💡Solution](https://mdnrkn.github.io/posts/800-Line-Trip/)      |
+| [Cover in Water](https://codeforces.com/problemset/problem/1900/A) | [💡Solution](https://mdnrkn.github.io/posts/800-Cover-in-Water)  |
 
 ---
 
