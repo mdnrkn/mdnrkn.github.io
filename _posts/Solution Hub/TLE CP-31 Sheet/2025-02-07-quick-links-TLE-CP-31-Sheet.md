@@ -15,11 +15,12 @@ Below is a collection of codeforces problems along with their solutions and corr
 
 ### 800
 
-| Problem Name with Links                                            | Solution Links                                                   |
-|--------------------------------------------------------------------|------------------------------------------------------------------|
-| [Halloumi Boxes](https://codeforces.com/problemset/problem/1903/A) | [💡Solution](https://mdnrkn.github.io/posts/800-Halloumi-Boxes/) |
-| [Line Trip](https://codeforces.com/problemset/problem/1901/A)      | [💡Solution](https://mdnrkn.github.io/posts/800-Line-Trip/)      |
-| [Cover in Water](https://codeforces.com/problemset/problem/1900/A) | [💡Solution](https://mdnrkn.github.io/posts/800-Cover-in-Water)  |
+| Problem Name with Links                                                | Solution Links                                                       |
+|------------------------------------------------------------------------|----------------------------------------------------------------------|
+| [Halloumi Boxes](https://codeforces.com/problemset/problem/1903/A)     | [💡Solution](https://mdnrkn.github.io/posts/800-Halloumi-Boxes/)     |
+| [Line Trip](https://codeforces.com/problemset/problem/1901/A)          | [💡Solution](https://mdnrkn.github.io/posts/800-Line-Trip/)          |
+| [Cover in Water](https://codeforces.com/problemset/problem/1900/A)     | [💡Solution](https://mdnrkn.github.io/posts/800-Cover-in-Water/)     |
+| [Game with Integers](https://codeforces.com/problemset/problem/1899/A) | [💡Solution](https://mdnrkn.github.io/posts/800-Game-with-Integers/) |
 
 ---
 
