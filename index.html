@@ -1,0 +1,358 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Md Nishat Raihan Khan Nijhum — [role] based in [location]." />
+    <meta name="theme-color" content="#f5f3ee" />
+    <meta name="author" content="Md Nishat Raihan Khan Nijhum" />
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg?v=2" />
+    <meta property="og:title" content="Md Nishat Raihan Khan Nijhum — [role]" />
+    <meta property="og:description" content="Md Nishat Raihan Khan Nijhum — [role] based in [location]." />
+    <meta property="og:type" content="website" />
+    <title>Nijhum's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap"
+      media="print"
+      onload="this.media='all'"
+    />
+    <noscript>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap" />
+    </noscript>
+    <script>
+      (() => {
+        let savedTheme;
+
+        try {
+          savedTheme = localStorage.getItem("portfolio-theme");
+        } catch {
+          // Theme enhancement is optional; the stylesheet supplies the fallback.
+        }
+
+        const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+        const initialTheme =
+          savedTheme === "dark" || savedTheme === "light"
+            ? savedTheme
+            : prefersDark
+              ? "dark"
+              : "light";
+
+        if (savedTheme === "dark" || savedTheme === "light") {
+          document.documentElement.dataset.theme = savedTheme;
+        }
+
+        document
+          .querySelector('meta[name="theme-color"]')
+          .setAttribute("content", initialTheme === "dark" ? "#181d1a" : "#f5f3ee");
+      })();
+    </script>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/main.js" defer></script>
+  </head>
+  <body>
+    <main id="top" class="ds-container ds-page">
+      <header class="site-header ds-reveal ds-reveal--0">
+        <div class="site-avatar" role="img" aria-label="Profile image placeholder">MN</div>
+        <div class="site-header__identity">
+          <p class="site-header__name">Md Nishat Raihan Khan Nijhum</p>
+          <p class="site-header__role">Professional title</p>
+        </div>
+        <div class="site-header__actions">
+          <button
+            class="ds-button ds-button--icon theme-toggle"
+            type="button"
+            aria-label="Switch to dark theme"
+            aria-pressed="false"
+          >
+            <svg class="theme-toggle__icon theme-icon--moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+            </svg>
+            <svg class="theme-toggle__icon theme-icon--sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="4" />
+              <path d="M12 2v2m0 16v2M4.93 4.93l1.41 1.41m11.32 11.32 1.41 1.41M2 12h2m16 0h2M4.93 19.07l1.41-1.41m11.32-11.32 1.41-1.41" />
+            </svg>
+          </button>
+        </div>
+      </header>
+
+      <section class="hero ds-reveal ds-reveal--1" aria-labelledby="hero-heading">
+        <h1 id="hero-heading" class="visually-hidden">Md Nishat Raihan Khan Nijhum, [role]</h1>
+        <p class="hero__paragraph">
+          Building thoughtful AI products and developer tools.
+        </p>
+        <p class="hero__paragraph">
+          Open to freelance work, feel free to
+          <a class="ds-link hero__link" href="https://cal.com/mdnrkn/30min/" target="_blank" rel="noopener noreferrer">book a call</a>.
+        </p>
+      </section>
+
+      <section class="hero-engagement ds-reveal ds-reveal--2" aria-label="Work and skills">
+        <div class="hero__actions">
+          <a class="ds-button ds-button--small hero__work" href="#projects-heading">
+            See my work
+            <svg class="ui-arrow-icon ui-arrow-icon--down hero__work-icon" viewBox="0 0 16 16" aria-hidden="true">
+              <path d="M8 2.5v11m0 0 4-4m-4 4-4-4" />
+            </svg>
+          </a>
+          <a
+            class="ds-button ds-button--small hero__resume ds-link--external"
+            href="https://drive.google.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Open resume in a new tab"
+          >
+            View resume
+            <svg class="ui-arrow-icon ui-arrow-icon--up-right ds-link__arrow" viewBox="0 0 16 16" aria-hidden="true">
+              <path d="M4 12 12 4m0 0H5m7 0v7" />
+            </svg>
+          </a>
+        </div>
+        <div class="skills-marquees">
+          <div class="skills-marquee" role="group" aria-label="Skills">
+            <div class="skills-marquee__track">
+              <ul class="skills-marquee__group">
+                <li class="skills-marquee__item">skill</li>
+                <li class="skills-marquee__item">skill</li>
+                <li class="skills-marquee__item">skill</li>
+                <li class="skills-marquee__item">skill</li>
+                <li class="skills-marquee__item">skill</li>
+                <li class="skills-marquee__item">skill</li>
+              </ul>
+              <ul class="skills-marquee__group" aria-hidden="true">
+                <li class="skills-marquee__item">skill</li>
+                <li class="skills-marquee__item">skill</li>
+                <li class="skills-marquee__item">skill</li>
+                <li class="skills-marquee__item">skill</li>
+                <li class="skills-marquee__item">skill</li>
+                <li class="skills-marquee__item">skill</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- <section class="portfolio-section ds-reveal ds-reveal--3" aria-labelledby="experience-heading">
+        <h2 id="experience-heading" class="ds-section-heading portfolio-section__heading">Experience</h2>
+        <div class="portfolio-section__content portfolio-list">
+          <div class="ds-meta-row portfolio-list__item">
+            <p class="portfolio-list__primary">Role title <span class="portfolio-list__secondary">· Organization</span></p>
+            <p class="portfolio-list__date">Year–now</p>
+          </div>
+          <div class="ds-meta-row portfolio-list__item">
+            <p class="portfolio-list__primary">Previous role <span class="portfolio-list__secondary">· Organization</span></p>
+            <p class="portfolio-list__date">Year–year</p>
+          </div>
+        </div>
+      </section> -->
+
+      <section class="portfolio-section ds-reveal ds-reveal--4" aria-labelledby="projects-heading">
+        <h2 id="projects-heading" class="ds-section-heading portfolio-section__heading">Featured Projects</h2>
+        <div class="portfolio-section__content portfolio-projects">
+          <article class="ds-project-card">
+            <div class="ds-project-media">
+              <span class="ds-project-placeholder" aria-hidden="true">Project image</span>
+            </div>
+            <div class="ds-project-title--featured ds-project-card__meta">
+              <h3 class="ds-project-card__title">Project name</h3>
+            </div>
+            <p class="ds-project-card__description">Project brief description goes here.</p>
+            <button class="project-card__trigger" type="button" aria-haspopup="dialog" aria-label="View details for featured project" data-project-title="Project name" disabled></button>
+          </article>
+
+          <div class="portfolio-projects__supporting ds-project-grid--supporting">
+            <article class="ds-project-card">
+              <div class="ds-project-media">
+                <span class="ds-project-placeholder" aria-hidden="true">Project image</span>
+              </div>
+              <div class="ds-project-title ds-project-card__meta">
+                <h3 class="ds-project-card__title">Project name</h3>
+              </div>
+              <p class="ds-project-card__description">Project brief description goes here.</p>
+              <button class="project-card__trigger" type="button" aria-haspopup="dialog" aria-label="View details for project name" data-project-title="Project name" disabled></button>
+            </article>
+
+            <article class="ds-project-card">
+              <div class="ds-project-media">
+                <span class="ds-project-placeholder" aria-hidden="true">Project image</span>
+              </div>
+              <div class="ds-project-title ds-project-card__meta">
+                <h3 class="ds-project-card__title">Project name</h3>
+              </div>
+              <p class="ds-project-card__description">Project brief description goes here.</p>
+              <button class="project-card__trigger" type="button" aria-haspopup="dialog" aria-label="View details for project name" data-project-title="Project name" disabled></button>
+            </article>
+          </div>
+          <div class="portfolio-projects__all">
+            <a class="ds-link" href="https://github.com/mdnrkn?tab=repositories" target="_blank" rel="noopener noreferrer">All projects</a>
+            <svg class="ui-arrow-icon ui-arrow-icon--up-right ds-link__arrow" viewBox="0 0 16 16" aria-hidden="true">
+              <path d="M4 12 12 4m0 0H5m7 0v7" />
+            </svg>
+          </div>
+        </div>
+      </section>
+
+      <section class="portfolio-section ds-reveal ds-reveal--5" aria-labelledby="skills-heading">
+        <h2 id="skills-heading" class="ds-section-heading portfolio-section__heading">Skills</h2>
+        <ul class="portfolio-section__content skills-list">
+          <li class="skills-list__item">
+            <h3 class="skills-list__title">AI &amp; Agents</h3>
+            <ul class="skills-list__items" aria-label="AI &amp; Agents skills">
+              <li class="skills-list__tag">skill</li>
+              <li class="skills-list__tag">skill</li>
+              <li class="skills-list__tag">skill</li>
+              <li class="skills-list__tag">skill</li>
+              <li class="skills-list__tag">skill</li>
+            </ul>
+          </li>
+          <li class="skills-list__item">
+            <h3 class="skills-list__title">Infra &amp; DB</h3>
+            <ul class="skills-list__items" aria-label="Infra &amp; DB skills">
+              <li class="skills-list__tag">skill</li>
+              <li class="skills-list__tag">skill</li>
+              <li class="skills-list__tag">skill</li>
+              <li class="skills-list__tag">skill</li>
+              <li class="skills-list__tag">skill</li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+
+      <section class="portfolio-section ds-reveal ds-reveal--6" aria-labelledby="education-heading">
+        <h2 id="education-heading" class="ds-section-heading portfolio-section__heading">Education</h2>
+        <div class="portfolio-section__content portfolio-list education-list">
+          <div class="education-list__item">
+            <div class="education-list__row">
+              <p class="education-list__value">American International University - Bangladesh (AIUB)</p>
+              <p class="portfolio-list__date">2023 - Present</p>
+            </div>
+            <div class="education-list__row">
+              <p class="education-list__value education-list__degree">Bachelor of Science in Computer Science &amp; Engineering</p>
+              <p class="education-list__credits">148 credits</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="portfolio-section ds-reveal ds-reveal--7" aria-labelledby="research-heading">
+        <h2 id="research-heading" class="ds-section-heading portfolio-section__heading">Research</h2>
+        <div class="portfolio-section__content portfolio-list">
+          <div class="ds-meta-row portfolio-list__item">
+            <p class="portfolio-list__primary">
+              <span class="portfolio-list__link">
+                <a class="ds-link" href="#research-heading">Research publication title</a>
+                <svg class="ui-arrow-icon ui-arrow-icon--up-right ds-link__arrow" viewBox="0 0 16 16" aria-hidden="true">
+                  <path d="M4 12 12 4m0 0H5m7 0v7" />
+                </svg>
+              </span>
+              <span class="portfolio-list__secondary">· Venue or context</span>
+            </p>
+            <p class="portfolio-list__date">Year</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="portfolio-section ds-reveal ds-reveal--8" aria-labelledby="writing-heading">
+        <h2 id="writing-heading" class="ds-section-heading portfolio-section__heading">Writing</h2>
+        <div class="portfolio-section__content portfolio-list">
+          <div class="ds-meta-row portfolio-list__item">
+            <p class="portfolio-list__primary">
+              <span class="portfolio-list__link">
+                <a class="ds-link" href="#writing-heading">Article title</a>
+                <svg class="ui-arrow-icon ui-arrow-icon--up-right ds-link__arrow" viewBox="0 0 16 16" aria-hidden="true">
+                  <path d="M4 12 12 4m0 0H5m7 0v7" />
+                </svg>
+              </span>
+            </p>
+            <p class="portfolio-list__date">Year</p>
+          </div>
+          <div class="ds-meta-row portfolio-list__item">
+            <p class="portfolio-list__primary">
+              <span class="portfolio-list__link">
+                <a class="ds-link" href="#writing-heading">Article title</a>
+                <svg class="ui-arrow-icon ui-arrow-icon--up-right ds-link__arrow" viewBox="0 0 16 16" aria-hidden="true">
+                  <path d="M4 12 12 4m0 0H5m7 0v7" />
+                </svg>
+              </span>
+            </p>
+            <p class="portfolio-list__date">Year</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="portfolio-section ds-reveal ds-reveal--9" aria-labelledby="contact-heading">
+        <h2 id="contact-heading" class="ds-section-heading portfolio-section__heading">Contact</h2>
+        <div class="portfolio-section__content">
+          <p>Have a project in mind? I’m open to freelance work and collaborations. <a class="ds-link" href="https://cal.com/mdnrkn/30min/" target="_blank" rel="noopener noreferrer">Book a meeting</a>, <a class="ds-link" href="mailto:mdnishatraihankhan@gmail.com">email me</a>, or reach me on <a class="ds-link" href="https://t.me/mdnrkn" target="_blank" rel="noopener noreferrer">Telegram</a>. Let’s cook..!! <svg class="contact-rocket-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 4c2-1 4-1 6-1 0 2 0 4-1 6l-6 6-5-5 6-6Z" /><circle cx="16" cy="7" r="1.5" /><path d="m8 10-4 1-2 4 5-1m4 2-1 4 4-2 1-4M8 17l-2 2" /></svg></p>
+        </div>
+      </section>
+
+      <footer id="footer-links" class="site-footer ds-reveal ds-reveal--10">
+        <nav class="site-footer__links" aria-label="Social links">
+          <a class="site-footer__link" href="https://github.com/mdnrkn/" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a class="site-footer__link" href="https://www.linkedin.com/in/mdnrkn/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a class="site-footer__link" href="https://x.com/mdnrknX/" target="_blank" rel="noopener noreferrer">X</a>
+          <a class="site-footer__link" href="https://www.instagram.com/mdnrkn/" target="_blank" rel="noopener noreferrer">Instagram</a>
+          <a class="site-footer__link" href="mailto:mdnishatraihankhan@gmail.com">Email</a>
+        </nav>
+        <p class="site-footer__meta">Dhaka, Bangladesh · <span class="site-footer__time">--:--</span> local</p>
+        <a class="site-footer__top" href="#top" aria-label="Jump to top"><svg class="ui-arrow-icon ui-arrow-icon--up site-footer__top-arrow" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 13.5v-11m0 0-4 4m4-4 4 4" /></svg> <span>Back to top</span></a>
+      </footer>
+    </main>
+
+    <dialog class="project-dialog" aria-labelledby="project-dialog-title">
+      <div class="project-dialog__content">
+        <header class="project-dialog__header">
+          <h2 id="project-dialog-title" class="project-dialog__title">Project details</h2>
+          <button class="ds-button ds-button--icon project-dialog__close" type="button" aria-label="Close project details">
+            <span aria-hidden="true">×</span>
+          </button>
+        </header>
+
+        <div class="ds-project-media project-dialog__media">
+          <span class="ds-project-placeholder">Project image</span>
+        </div>
+
+        <div class="project-dialog__actions" aria-label="Project links">
+          <a
+            class="ds-button project-dialog__action ds-link--external"
+            href="https://example.com/your-live-project"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Live link <svg class="ui-arrow-icon ui-arrow-icon--up-right ds-link__arrow" viewBox="0 0 16 16" aria-hidden="true"><path d="M4 12 12 4m0 0H5m7 0v7" /></svg>
+          </a>
+          <a
+            class="ds-button project-dialog__action ds-link--external"
+            href="https://example.com/your-source-code"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Source code <svg class="ui-arrow-icon ui-arrow-icon--up-right ds-link__arrow" viewBox="0 0 16 16" aria-hidden="true"><path d="M4 12 12 4m0 0H5m7 0v7" /></svg>
+          </a>
+          <a
+            class="ds-button project-dialog__action ds-link--external"
+            href="https://example.com/your-case-study"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Case study <svg class="ui-arrow-icon ui-arrow-icon--up-right ds-link__arrow" viewBox="0 0 16 16" aria-hidden="true"><path d="M4 12 12 4m0 0H5m7 0v7" /></svg>
+          </a>
+        </div>
+
+        <div class="project-dialog__details">
+          <section>
+            <h3 class="project-dialog__label">Description</h3>
+            <p class="project-dialog__placeholder">Project description will go here.</p>
+          </section>
+          <section>
+            <h3 class="project-dialog__label">Tech stack</h3>
+            <p class="project-dialog__placeholder">Technologies will be added here.</p>
+          </section>
+        </div>
+      </div>
+    </dialog>
+  </body>
+</html>

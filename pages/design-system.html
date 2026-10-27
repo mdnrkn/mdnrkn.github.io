@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfolio design system</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap"
+      media="print"
+      onload="this.media='all'"
+    />
+    <noscript>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap" />
+    </noscript>
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/design-system.css" />
+  </head>
+  <body>
+    <main class="ds-container ds-page">
+      <div class="preview">
+        <header class="preview__header">
+          <span class="preview__avatar" aria-hidden="true"></span>
+          <div>
+            <p class="ds-section-heading">Design system</p>
+            <p>Portfolio primitives</p>
+          </div>
+        </header>
+
+        <section class="preview__surface" aria-labelledby="type-heading">
+          <h1 id="type-heading" class="ds-section-heading">Typography</h1>
+          <div class="ds-stack ds-stack--intro">
+            <p class="ds-copy">Supporting copy uses the relaxed reading rhythm and neutral hierarchy from the reference design.</p>
+            <p><a class="ds-link ds-link--external" href="#type-heading">Inline link <span class="ds-link__arrow" aria-hidden="true">↗</span></a></p>
+          </div>
+        </section>
+
+        <section class="preview__surface" aria-labelledby="color-heading">
+          <h2 id="color-heading" class="ds-section-heading">Color tokens</h2>
+          <div class="preview__swatches preview__swatches--spaced">
+            <div class="preview__swatch preview__swatch--background">Background</div>
+            <div class="preview__swatch preview__swatch--text">Text</div>
+            <div class="preview__swatch preview__swatch--green">Green</div>
+            <div class="preview__swatch preview__swatch--amber">Amber</div>
+          </div>
+        </section>
+
+        <section class="preview__surface" aria-labelledby="component-heading">
+          <h2 id="component-heading" class="ds-section-heading">Components</h2>
+          <div class="preview__controls preview__controls--spaced">
+            <a class="ds-button" href="#component-heading">Button</a>
+            <button class="ds-button ds-button--icon" type="button" aria-label="Theme preview">
+              <span class="ds-button__icon" aria-hidden="true">◐</span>
+            </button>
+            <span class="ds-badge">Status badge</span>
+            <span class="ds-accent-amber">Small highlight</span>
+          </div>
+          <div class="preview__rows preview__rows--spaced">
+            <div class="ds-meta-row">
+              <p class="ds-meta-row__content">Reusable metadata row <span class="ds-meta-row__detail">· supporting detail</span></p>
+              <p class="ds-meta-row__date">2026–now</p>
+            </div>
+            <p class="ds-copy">The row keeps its date column from shrinking while allowing the content column to wrap.</p>
+          </div>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
